@@ -16,17 +16,25 @@ public class Actividad2Semana {
      */
     public static void main(String[] args) {
         
+        // Se imprime el número de ejercicio y la instrucción
+        
         System.out.println("Segundo ejercicio");
         // CREAR UN MÉTODO QUE DETERMINE SI EL DÍA ES HÁBIL (LUNES A VIERNES)Y EMITA UN MENSAJE SI ES FIN DE SEMANA.
     
+        // Se declara la variable día
     int dia = 0;
+    
+        // Se agrega el scanner
     
     Scanner miConsola = new Scanner(System.in);
     
+       // Imprimir un anunció que le pida al usuario introducir un número que corresponda a un día de la semana
       
     System.out.println("Introduce un día de la semana en base a:\n Lunes = 1 \n Martes = 2 \n Miércoles = 3 \n Jueves = 4 \n Viernes = 5 \n Sabado = 6 \n Domingo = 7");
     dia = miConsola.nextInt();
     
+       // Se añade el if que corresponde a los días de la semana
+     
     if (dia == 1) {
         System.out.println("Escribiste Lunes, es un día hábil");
     } else {
