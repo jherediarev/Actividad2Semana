@@ -9,6 +9,7 @@ import java.util.Scanner;
  *
  * @author Johnny Reveles
  */
+
 public class Actividad2Semana {
 
     /**
