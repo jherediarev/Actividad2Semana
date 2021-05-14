@@ -30,11 +30,13 @@ public class Actividad2Semana {
     
        // Imprimir un anunció que le pida al usuario introducir un número que corresponda a un día de la semana
       
+       
     System.out.println("Introduce un día de la semana en base a:\n Lunes = 1 \n Martes = 2 \n Miércoles = 3 \n Jueves = 4 \n Viernes = 5 \n Sabado = 6 \n Domingo = 7");
     dia = miConsola.nextInt();
     
        // Se añade el if que corresponde a los días de la semana
      
+       
     if (dia == 1) {
         System.out.println("Escribiste Lunes, es un día hábil");
     } else {
@@ -65,7 +67,6 @@ public class Actividad2Semana {
     } 
     }
     
-
 
     
     }
